@@ -4,7 +4,7 @@ A RAG (Retrieval-Augmented Generation) demo for local private knowledge base Q&A
 ## 一、核心技术栈
 | 分类         | 具体内容                                                                 |
 |--------------|--------------------------------------------------------------------------|
-| 核心技术     | Python、自然语言处理（NLP）、大模型微调（LoRA）、向量检索（FAISS）、光学字符识别（OCR） |
+| 核心技术     | Python、自然语言处理（NLP）、大模型微调（LoRA）、向量检索（FAISS） |
 | 框架/库      | LangChain、Transformers、PaddleOCR、Gradio、jieba、HuggingFace Embeddings          |
 | 工具/能力    | 文本语义分块、混合检索（向量 + 关键词）、大模型推理、自定义 Prompt 工程、知识库构建与管理 |
 
