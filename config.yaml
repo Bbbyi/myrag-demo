@@ -1,0 +1,20 @@
+# 模型配置
+#model_name: "Qwen/Qwen2-0.5B-Instruct"
+model_name: "D:/python/myrag-demo/model/qwen"
+lora_model_path: "./custom_chat_model"
+#embedding_model: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+embedding_model: "D:/python/myrag-demo/model/embeding/text2vec-base-chinese"
+
+# 知识库配置
+vector_db_path: "./vector_db"
+chunk_size: 200
+chunk_overlap: 20
+
+# 推理配置
+max_new_tokens: 200
+temperature: 0.6
+repetition_penalty: 1.1
+top_k: 3  # 检索topk
+
+# 交互配置
+gradio_port: 7860
